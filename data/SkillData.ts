@@ -1335,7 +1335,7 @@ const skillMap: SkillMap = {
         "element": "passive",
         "personas": {
             "经津主": 81,
-            "Mara": 78,
+            "魔罗": 78,
             "メサイア 贼神": 94,
             "隐形鬼": 79
         }
@@ -1631,7 +1631,7 @@ const skillMap: SkillMap = {
             "アリアドネ 贼神": 44,
             "贝利亚": 72,
             "佛劳洛斯": 30,
-            "Mara": 77,
+            "魔罗": 77,
             "托尔": 68
         }
     },
@@ -1945,13 +1945,13 @@ const skillMap: SkillMap = {
             "别西卜": 0,
             "黑骑士": 0,
             "水晶骷髅": 0,
-            "Mara": 76,
+            "魔罗": 76,
             "奈比洛斯": 64,
             "撒旦耶尔": 0,
             "塔纳托斯": 0,
             "塔纳托斯 贼神": 0
         },
-        "talk": "Mara"
+        "talk": "魔罗"
     },
     "Maeiha": {
         "cost": 1000,
@@ -2042,7 +2042,7 @@ const skillMap: SkillMap = {
         },
         "talk": "风鬼"
     },
-    "祸津 Mandala": {
+    "Magatsu Mandala": {
         "cost": 3000,
         "dlc": true,
         "effect": "Deal heavy Curse damage to all foes and inflict Confuse/Fear/Despair (medium odds).",
@@ -2261,7 +2261,7 @@ const skillMap: SkillMap = {
         "cost": 2200,
         "effect": "Deal heavy Fire damage to all foes.",
         "element": "fire",
-        "fuse": "Mara, 俄耳甫斯 贼神",
+        "fuse": "魔罗, 俄耳甫斯 贼神",
         "personas": {
             "アステリオス": 0,
             "アステリオス 贼神": 0,
@@ -2270,7 +2270,7 @@ const skillMap: SkillMap = {
             "水晶骷髅": 0,
             "狄俄尼索斯": 65,
             "莉莉丝": 65,
-            "Mara": 0,
+            "魔罗": 0,
             "斯尔特": 60,
             "藏王权现": 0
         },
@@ -2835,7 +2835,7 @@ const skillMap: SkillMap = {
         "fuse": "赛特",
         "personas": {
             "邪恶霜精": 0,
-            "Mara": 0,
+            "魔罗": 0,
             "赛特": 0,
             "塔纳托斯": 68,
             "塔纳托斯 贼神": 72
@@ -2909,7 +2909,7 @@ const skillMap: SkillMap = {
             "经津主": 78,
             "象头神": 60,
             "百臂巨人": 48,
-            "Mara": 74,
+            "魔罗": 74,
             "拉斐尔": 0,
             "瑟斯特": 34,
             "齐格菲": 70,
@@ -3773,7 +3773,7 @@ const skillMap: SkillMap = {
             "风鬼": 0,
             "哈奴曼": 67,
             "恶灵军团": 40,
-            "Mara": 0,
+            "魔罗": 0,
             "米特拉斯": 41,
             "虹蛇": 47
         },

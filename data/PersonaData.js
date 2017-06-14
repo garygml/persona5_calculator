@@ -1493,7 +1493,7 @@ var personaMap = {
             "Bloodbath": 46,
             "Ghastly Wail": 0,
             "Heat Riser": 50,
-            "祸津 Mandala": 0,
+            "Magatsu Mandala": 0,
             "Maziodyne": 45,
             "Megidola": 0
         },
@@ -1509,7 +1509,7 @@ var personaMap = {
             "Ghastly Wail": 0,
             "Heat Riser": 54,
             "Magarudyne": 49,
-            "祸津 Mandala": 0,
+            "Magatsu Mandala": 0,
             "Megidola": 0,
             "Speed Master": 52
         },
@@ -1539,7 +1539,7 @@ var personaMap = {
         "skills": { "Energy Drop": 0, "Lunge": 4, "Pulinpa": 0, "Skull Cracker": 7, "Sukunda": 5 },
         "personality": "Upbeat"
     },
-    "Mara": {
+    "魔罗": {
         "arcana": "塔",
         "level": 73,
         "stats": [47, 46, 49, 45, 39],
