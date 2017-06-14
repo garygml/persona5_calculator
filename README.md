@@ -12,7 +12,7 @@ Note: the cost is estimated and is not accurate.
 
 In general, fusion in Persona 5 is still mostly the same as in Persona 3 and 4, with a few additional rules:
 
- - There are rare persona (Regent, Queen's Necklace, Stone of Scone, Koh-i-Noor, Orlov, Emperor's Amulet, Hope Diamond and Crystal Skull) that when fused with a normal persona X will result in another persona either one or two ranks above or below X's current level. Whether to move up or down rank and whether to move one or two steps depending on the rare persona and X's arcana.
+ - There are rare persona (摄政者, 女王的首饰, 命运之石, 柯·伊·诺尔, 欧鲁罗芙, 大帝的护符, 希望钻石 and 水晶骷髅) that when fused with a normal persona X will result in another persona either one or two ranks above or below X's current level. Whether to move up or down rank and whether to move one or two steps depending on the rare persona and X's arcana.
  
  - Rare persona cannot be the result of a fusion.
  
@@ -24,9 +24,9 @@ In general, fusion in Persona 5 is still mostly the same as in Persona 3 and 4, 
  
 This calculator assumes that you own all DLC persona by default (you can change which DLC persona you own [here](https://chinhodado.github.io/persona5_calculator/#/setting)). It also assumes that when you do a rare fusion your persona is at the base level, so please keep that in mind if you don't get the same result as shown.
 
-### Note on fusion with Judgement arcana
+### Note on fusion with 审判 arcana
 
-According to the [official guide](http://atlus.com/persona5/manual/ps4/?pid=50) a fusion between a persona of the Judgement arcana and another persona of the Justice/Strength/Chariot/Death arcana is possible, but this is actually not the case in game.
+According to the [official guide](http://atlus.com/persona5/manual/ps4/?pid=50) a fusion between a persona of the 审判 arcana and another persona of the 正义/力量/战车/死神 arcana is possible, but this is actually not the case in game.
  
 ### Credits
  

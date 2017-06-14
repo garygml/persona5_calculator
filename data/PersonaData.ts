@@ -52,8 +52,8 @@ interface PersonaData {
 }
 
 const personaMap : PersonaMap = {
-    "Abaddon": {
-        "arcana": "Judgement",
+    "阿巴顿": {
+        "arcana": "审判",
         "level": 74,
         "stats": [51, 38, 58, 43, 39],
         "elems": ["ab", "ab", "-", "-", "-", "-", "wk", "wk", "-", "ab"],
@@ -66,16 +66,16 @@ const personaMap : PersonaMap = {
             "Survival Trick": 77
         }
     },
-    "Agathion": {
-        "arcana": "Chariot",
+    "阿珈席翁": {
+        "arcana": "战车",
         "level": 3,
         "stats": [3, 4, 5, 7, 3],
         "elems": ["-", "rs", "-", "-", "rs", "wk", "-", "-", "-", "-"],
         "skills": {"Baisudi": 0, "Dia": 0, "Dodge Elec": 8, "Lunge": 4, "Rakukaja": 6, "Zio": 0},
         "personality": "Timid"
     },
-    "Alice": {
-        "arcana": "Death",
+    "爱丽丝": {
+        "arcana": "死神",
         "level": 79,
         "stats": [43, 59, 40, 57, 45],
         "elems": ["-", "-", "-", "-", "-", "-", "rs", "rs", "wk", "rp"],
@@ -91,15 +91,15 @@ const personaMap : PersonaMap = {
         "special": true,
         "max": true
     },
-    "Ame-no-Uzume": {
-        "arcana": "Lovers",
+    "天钿女命": {
+        "arcana": "恋爱",
         "level": 29,
         "stats": [15, 22, 19, 20, 18],
         "elems": ["-", "-", "ab", "-", "-", "-", "wk", "-", "-", "-"],
         "skills": {"Bufula": 0, "Diarama": 0, "Divine Grace": 32, "Mazio": 0, "Shock Boost": 34, "Tentarafoo": 31}
     },
-    "Ananta": {
-        "arcana": "Star",
+    "阿难陀": {
+        "arcana": "星星",
         "level": 43,
         "stats": [24, 30, 31, 26, 25],
         "elems": ["-", "-", "-", "ab", "wk", "-", "-", "-", "-", "-"],
@@ -114,24 +114,24 @@ const personaMap : PersonaMap = {
             "Nuke Boost": 49
         }
     },
-    "Andras": {
-        "arcana": "Devil",
+    "安德拉斯": {
+        "arcana": "恶魔",
         "level": 10,
         "stats": [5, 9, 7, 10, 6],
         "elems": ["-", "wk", "wk", "rs", "-", "-", "-", "-", "-", "-"],
         "skills": {"Apt Pupil": 13, "Bufu": 0, "Ice Break": 15, "Mabufu": 14, "Rakunda": 0, "Tarukaja": 11},
         "personality": "Timid"
     },
-    "Angel": {
-        "arcana": "Justice",
+    "天使": {
+        "arcana": "正义",
         "level": 12,
         "stats": [7, 9, 9, 9, 9],
         "elems": ["-", "-", "-", "-", "rs", "-", "-", "-", "nu", "wk"],
         "skills": {"Baisudi": 14, "Dazzler": 0, "Dekunda": 17, "Dia": 0, "Dodge Curse": 15, "Hama": 0, "Kouha": 13},
         "personality": "Irritable"
     },
-    "Anubis": {
-        "arcana": "Judgement",
+    "阿努比斯": {
+        "arcana": "审判",
         "level": 37,
         "stats": [23, 26, 24, 22, 23],
         "elems": ["-", "-", "-", "-", "-", "-", "-", "-", "nu", "nu"],
@@ -146,31 +146,31 @@ const personaMap : PersonaMap = {
         },
         "personality": "Gloomy"
     },
-    "Anzu": {
-        "arcana": "Hierophant",
+    "安祖": {
+        "arcana": "教皇",
         "level": 25,
         "stats": [14, 18, 15, 21, 14],
         "elems": ["-", "wk", "-", "-", "rs", "rp", "-", "wk", "-", "-"],
         "skills": {"Assault Dive": 27, "Dekaja": 28, "Garula": 0, "Masukukaja": 0, "Null Forget": 29, "Wind Break": 0},
         "personality": "Irritable"
     },
-    "Apsaras": {
-        "arcana": "Priestess",
+    "飞天": {
+        "arcana": "女教皇",
         "level": 11,
         "stats": [7, 11, 6, 10, 6],
         "elems": ["-", "-", "-", "rs", "wk", "-", "-", "-", "-", "-"],
         "skills": {"Bufu": 0, "Elec Wall": 14, "Ice Wall": 0, "Media": 13, "Rebellion": 0, "Wind Wall": 16},
         "personality": "Upbeat"
     },
-    "Ara Mitama": {
-        "arcana": "Chariot",
+    "荒魂": {
+        "arcana": "战车",
         "level": 31,
         "stats": [20, 19, 20, 20, 21],
         "elems": ["rs", "-", "-", "wk", "-", "-", "-", "-", "-", "-"],
         "skills": {"Freila": 0, "Marakunda": 33, "Miracle Punch": 0, "Taunt": 0, "Rage Boost": 35, "Rebellion": 32}
     },
-    "Arahabaki": {
-        "arcana": "Hermit",
+    "荒霸吐": {
+        "arcana": "隐士",
         "level": 35,
         "stats": [21, 23, 22, 24, 22],
         "elems": ["rp", "rp", "-", "-", "-", "-", "wk", "wk", "rs", "rs"],
@@ -184,16 +184,16 @@ const personaMap : PersonaMap = {
         },
         "personality": "Gloomy"
     },
-    "Archangel": {
-        "arcana": "Justice",
+    "大天使": {
+        "arcana": "正义",
         "level": 16,
         "stats": [13, 10, 13, 12, 7],
         "elems": ["-", "-", "-", "-", "wk", "-", "-", "-", "nu", "wk"],
         "skills": {"Dazzler": 0, "Hama": 0, "Vajra Blast": 21, "Makouha": 19, "Psi": 0, "Rebellion": 18},
         "personality": "Irritable"
     },
-    "Ardha": {
-        "arcana": "Temperance",
+    "阿尔达": {
+        "arcana": "节制",
         "level": 84,
         "stats": [54, 56, 55, 54, 40],
         "elems": ["rs", "-", "-", "nu", "nu", "-", "-", "-", "-", "-"],
@@ -209,8 +209,8 @@ const personaMap : PersonaMap = {
         "special": true,
         "max": true
     },
-    "Ariadne": {
-        "arcana": "Fortune",
+    "アリアドネ": {
+        "arcana": "命运",
         "level": 30,
         "stats": [23, 19, 20, 17, 18],
         "elems": ["-", "rs", "-", "-", "-", "-", "wk", "nu", "rs", "-"],
@@ -225,8 +225,8 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Ariadne Picaro": {
-        "arcana": "Fortune",
+    "アリアドネ 贼神": {
+        "arcana": "命运",
         "level": 42,
         "stats": [36, 23, 29, 24, 21],
         "elems": ["-", "rs", "-", "-", "-", "-", "wk", "nu", "rs", "-"],
@@ -241,15 +241,15 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Arsene": {
-        "arcana": "Fool",
+    "亚森": {
+        "arcana": "愚者",
         "level": 1,
         "stats": [2, 2, 2, 3, 1],
         "elems": ["-", "-", "-", "wk", "-", "-", "-", "-", "wk", "rs"],
         "skills": {"Cleave": 2, "Adverse Resolve": 7, "Dream Needle": 5, "Eiha": 1, "Sukunda": 4}
     },
-    "Asterius": {
-        "arcana": "Fortune",
+    "アステリオス": {
+        "arcana": "命运",
         "level": 56,
         "stats": [43, 43, 32, 32, 25],
         "elems": ["-", "-", "rs", "wk", "-", "-", "rs", "-", "-", "nu"],
@@ -264,8 +264,8 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Asterius Picaro": {
-        "arcana": "Fortune",
+    "アステリオス 贼神": {
+        "arcana": "命运",
         "level": 62,
         "stats": [46, 46, 36, 36, 29],
         "elems": ["-", "-", "rs", "wk", "-", "-", "rs", "-", "-", "nu"],
@@ -280,8 +280,8 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Asura-Ou": {
-        "arcana": "Sun",
+    "阿修罗王": {
+        "arcana": "太阳",
         "level": 76,
         "stats": [52, 48, 51, 49, 35],
         "elems": ["-", "-", "nu", "-", "-", "-", "wk", "rp", "-", "-"],
@@ -297,8 +297,8 @@ const personaMap : PersonaMap = {
         "special": true,
         "max": true
     },
-    "Atropos": {
-        "arcana": "Fortune",
+    "阿特罗波斯": {
+        "arcana": "命运",
         "level": 39,
         "stats": [23, 30, 22, 27, 22],
         "elems": ["-", "-", "wk", "-", "-", "nu", "-", "-", "-", "-"],
@@ -312,8 +312,8 @@ const personaMap : PersonaMap = {
             "Concentrate": 45
         }
     },
-    "Attis": {
-        "arcana": "Hanged Man",
+    "阿提斯": {
+        "arcana": "倒悬者",
         "level": 82,
         "stats": [56, 50, 48, 51, 48],
         "elems": ["-", "-", "nu", "-", "-", "rp", "-", "-", "-", "wk"],
@@ -328,8 +328,8 @@ const personaMap : PersonaMap = {
         },
         "max": true
     },
-    "Baal": {
-        "arcana": "Emperor",
+    "巴尔": {
+        "arcana": "皇帝",
         "level": 75,
         "stats": [48, 50, 47, 47, 40],
         "elems": ["-", "-", "rs", "-", "-", "ab", "-", "-", "rs", "rs"],
@@ -343,8 +343,8 @@ const personaMap : PersonaMap = {
             "Ayamur": 80
         }
     },
-    "Baphomet": {
-        "arcana": "Devil",
+    "巴风特": {
+        "arcana": "恶魔",
         "level": 58,
         "stats": [34, 42, 36, 38, 31],
         "elems": ["-", "-", "rs", "-", "-", "-", "-", "-", "wk", "nu"],
@@ -358,8 +358,8 @@ const personaMap : PersonaMap = {
             "Ziodyne": 61
         }
     },
-    "Barong": {
-        "arcana": "Emperor",
+    "巴隆": {
+        "arcana": "皇帝",
         "level": 52,
         "stats": [33, 35, 33, 37, 25],
         "elems": ["-", "rs", "-", "-", "rs", "wk", "-", "-", "nu", "wk"],
@@ -372,8 +372,8 @@ const personaMap : PersonaMap = {
             "Ziodyne": 0
         }
     },
-    "Beelzebub": {
-        "arcana": "Devil",
+    "别西卜": {
+        "arcana": "恶魔",
         "level": 84,
         "stats": [55, 60, 54, 56, 34],
         "elems": ["-", "-", "ab", "-", "-", "-", "-", "-", "wk", "rp"],
@@ -389,8 +389,8 @@ const personaMap : PersonaMap = {
         },
         "max": true
     },
-    "Belial": {
-        "arcana": "Devil",
+    "贝利亚": {
+        "arcana": "恶魔",
         "level": 68,
         "stats": [45, 41, 46, 43, 36],
         "elems": ["-", "-", "-", "-", "-", "-", "-", "-", "-", "nu"],
@@ -404,32 +404,32 @@ const personaMap : PersonaMap = {
             "Survival Trick": 70
         }
     },
-    "Belphegor": {
-        "arcana": "Tower",
+    "贝尔芬格": {
+        "arcana": "塔",
         "level": 37,
         "stats": [25, 27, 24, 23, 19],
         "elems": ["-", "-", "wk", "rs", "rs", "-", "-", "rs", "-", "rp"],
         "skills": {"Bufula": 0, "Dodge Fire": 0, "Ice Break": 39, "Mabufula": 41, "Concentrate": 44, "Null Rage": 38},
         "personality": "Irritable"
     },
-    "Berith": {
-        "arcana": "Hierophant",
+    "比列": {
+        "arcana": "教皇",
         "level": 9,
         "stats": [8, 6, 7, 8, 5],
         "elems": ["-", "nu", "rs", "wk", "-", "-", "-", "-", "-", "-"],
         "skills": {"Cleave": 0, "Dodge Fire": 11, "Double Fangs": 10, "Rakukaja": 0, "Sledgehammer": 13},
         "personality": "Irritable"
     },
-    "Bicorn": {
-        "arcana": "Hermit",
+    "双角兽": {
+        "arcana": "隐士",
         "level": 4,
         "stats": [5, 3, 3, 5, 3],
         "elems": ["-", "-", "-", "-", "wk", "-", "-", "-", "-", "rs"],
         "skills": {"Apt Pupil": 8, "Garu": 6, "Ice Wall": 7, "Lunge": 0, "Tarunda": 0},
         "personality": "Irritable"
     },
-    "Bishamonten": {
-        "arcana": "Hierophant",
+    "昆沙门天": {
+        "arcana": "教皇",
         "level": 67,
         "stats": [49, 37, 42, 45, 35],
         "elems": ["-", "-", "ab", "wk", "-", "-", "-", "-", "rs", "rs"],
@@ -443,8 +443,8 @@ const personaMap : PersonaMap = {
             "Tetrakarn": 72
         }
     },
-    "Black Frost": {
-        "arcana": "Fool",
+    "邪恶霜精": {
+        "arcana": "愚者",
         "level": 67,
         "stats": [44, 46, 41, 42, 35],
         "elems": ["-", "-", "rp", "ab", "-", "-", "-", "nu", "-", "rp"],
@@ -459,8 +459,8 @@ const personaMap : PersonaMap = {
         "special": true,
         "note": "Request \"One Who Bullies Bullies\" must be cleared"
     },
-    "Black Ooze": {
-        "arcana": "Moon",
+    "黑软泥怪": {
+        "arcana": "月亮",
         "level": 29,
         "stats": [19, 18, 20, 16, 21],
         "elems": ["rs", "rs", "-", "rs", "wk", "-", "wk", "-", "wk", "nu"],
@@ -475,8 +475,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Irritable"
     },
-    "Black Rider": {
-        "arcana": "Tower",
+    "黑骑士": {
+        "arcana": "塔",
         "level": 59,
         "stats": [38, 43, 37, 45, 30],
         "elems": ["-", "-", "wk", "ab", "-", "-", "-", "-", "rs", "rs"],
@@ -490,8 +490,8 @@ const personaMap : PersonaMap = {
             "Megidola": 64
         }
     },
-    "Bugs": {
-        "arcana": "Fool",
+    "巴古斯": {
+        "arcana": "愚者",
         "level": 49,
         "stats": [35, 33, 30, 32, 24],
         "elems": ["-", "-", "-", "-", "-", "-", "rs", "wk", "-", "nu"],
@@ -507,8 +507,8 @@ const personaMap : PersonaMap = {
         "special": true,
         "note": "Request \"The Lovesick Cyberstalking Girl\" must be cleared"
     },
-    "Byakko": {
-        "arcana": "Temperance",
+    "白虎": {
+        "arcana": "节制",
         "level": 49,
         "stats": [32, 32, 31, 32, 27],
         "elems": ["-", "-", "wk", "ab", "-", "-", "-", "wk", "-", "rs"],
@@ -522,8 +522,8 @@ const personaMap : PersonaMap = {
             "Swift Strike": 0
         }
     },
-    "Cerberus": {
-        "arcana": "Chariot",
+    "克鲁贝洛斯": {
+        "arcana": "战车",
         "level": 55,
         "stats": [39, 35, 32, 39, 27],
         "elems": ["-", "-", "ab", "wk", "-", "-", "-", "rs", "-", "-"],
@@ -537,8 +537,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Chernobog": {
-        "arcana": "Death",
+    "切尔诺伯格": {
+        "arcana": "死神",
         "level": 62,
         "stats": [40, 37, 39, 38, 39],
         "elems": ["-", "rs", "wk", "ab", "nu", "-", "-", "-", "wk", "rp"],
@@ -552,8 +552,8 @@ const personaMap : PersonaMap = {
             "Stagnant Air": 63
         }
     },
-    "Chi You": {
-        "arcana": "Chariot",
+    "蚩尤": {
+        "arcana": "战车",
         "level": 86,
         "stats": [54, 56, 53, 52, 50],
         "elems": ["rs", "rs", "-", "-", "-", "-", "nu", "wk", "-", "-"],
@@ -569,8 +569,8 @@ const personaMap : PersonaMap = {
         "special": true,
         "max": true
     },
-    "Choronzon": {
-        "arcana": "Magician",
+    "克伦佐": {
+        "arcana": "魔术师",
         "level": 28,
         "stats": [16, 19, 19, 18, 19],
         "elems": ["-", "-", "ab", "-", "-", "-", "-", "-", "wk", "-"],
@@ -586,8 +586,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Timid"
     },
-    "Clotho": {
-        "arcana": "Fortune",
+    "克罗索": {
+        "arcana": "命运",
         "level": 26,
         "stats": [14, 19, 17, 20, 15],
         "elems": ["-", "-", "-", "wk", "-", "nu", "-", "wk", "-", "-"],
@@ -601,8 +601,8 @@ const personaMap : PersonaMap = {
             "Tetraja": 27
         }
     },
-    "Crystal Skull": {
-        "arcana": "Fool",
+    "水晶骷髅": {
+        "arcana": "愚者",
         "level": 50,
         "stats": [50, 50, 50, 50, 50],
         "elems": ["rs", "nu", "rp", "rp", "rp", "rp", "rp", "rp", "-", "rp"],
@@ -618,8 +618,8 @@ const personaMap : PersonaMap = {
         },
         "rare": true
     },
-    "Cu Chulainn": {
-        "arcana": "Star",
+    "库夫林": {
+        "arcana": "星星",
         "level": 67,
         "stats": [47, 36, 44, 47, 34],
         "elems": ["rs", "rs", "-", "-", "wk", "rp", "-", "-", "nu", "-"],
@@ -633,8 +633,8 @@ const personaMap : PersonaMap = {
             "Charge": 71
         }
     },
-    "Cybele": {
-        "arcana": "Priestess",
+    "西布莉": {
+        "arcana": "女教皇",
         "level": 73,
         "stats": [44, 48, 45, 51, 38],
         "elems": ["-", "-", "rs", "-", "wk", "-", "-", "-", "nu", "-"],
@@ -649,8 +649,8 @@ const personaMap : PersonaMap = {
         },
         "max": true
     },
-    "Daisoujou": {
-        "arcana": "Hierophant",
+    "大僧正": {
+        "arcana": "教皇",
         "level": 42,
         "stats": [22, 33, 24, 25, 29],
         "elems": ["-", "rs", "-", "-", "-", "-", "-", "-", "nu", "wk"],
@@ -664,8 +664,8 @@ const personaMap : PersonaMap = {
             "Spirit Drain": 0
         }
     },
-    "Dakini": {
-        "arcana": "Empress",
+    "茶枳尼": {
+        "arcana": "女皇",
         "level": 50,
         "stats": [34, 32, 34, 28, 29],
         "elems": ["-", "-", "rs", "-", "-", "-", "-", "-", "-", "-"],
@@ -680,8 +680,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Decarabia": {
-        "arcana": "Fool",
+    "单卡拉比": {
+        "arcana": "愚者",
         "level": 32,
         "stats": [21, 23, 19, 22, 18],
         "elems": ["wk", "-", "rp", "-", "-", "-", "-", "rs", "-", "rs"],
@@ -696,8 +696,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Gloomy"
     },
-    "Dionysus": {
-        "arcana": "Fool",
+    "狄俄尼索斯": {
+        "arcana": "愚者",
         "level": 61,
         "stats": [35, 41, 38, 40, 36],
         "elems": ["-", "-", "-", "-", "rp", "-", "-", "-", "rs", "rs"],
@@ -711,8 +711,8 @@ const personaMap : PersonaMap = {
             "Thermopylae": 62
         }
     },
-    "Dominion": {
-        "arcana": "Justice",
+    "主天使": {
+        "arcana": "正义",
         "level": 68,
         "stats": [46, 47, 45, 48, 40],
         "elems": ["-", "wk", "-", "-", "-", "-", "-", "rp", "nu", "rs"],
@@ -727,8 +727,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Eligor": {
-        "arcana": "Emperor",
+    "埃力格": {
+        "arcana": "皇帝",
         "level": 16,
         "stats": [12, 10, 13, 10, 10],
         "elems": ["-", "rs", "rs", "-", "wk", "-", "-", "-", "-", "-"],
@@ -742,8 +742,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Emperor's Amulet": {
-        "arcana": "Hanged Man",
+    "大帝的护符": {
+        "arcana": "倒悬者",
         "level": 35,
         "stats": [35, 35, 35, 35, 35],
         "elems": ["rs", "nu", "-", "ab", "ab", "ab", "ab", "ab", "nu", "nu"],
@@ -759,15 +759,15 @@ const personaMap : PersonaMap = {
         },
         "rare": true
     },
-    "Phoenix": {
-        "arcana": "Hierophant",
+    "凤凰": {
+        "arcana": "教皇",
         "level": 22,
         "stats": [14, 15, 15, 18, 11],
         "elems": ["-", "-", "-", "rs", "wk", "nu", "-", "-", "-", "-"],
         "skills": {"Diarama": 23, "Dream Needle": 0, "Freila": 0, "Nuke Boost": 27, "Recarm": 25}
     },
-    "Flauros": {
-        "arcana": "Devil",
+    "佛劳洛斯": {
+        "arcana": "恶魔",
         "level": 25,
         "stats": [19, 14, 18, 18, 13],
         "elems": ["-", "-", "nu", "wk", "-", "rs", "-", "rs", "-", "-"],
@@ -780,10 +780,10 @@ const personaMap : PersonaMap = {
             "Heat Up": 30
         },
         "special": true,
-        "note": "Needs Strength cooperation rank 1 to be fused"
+        "note": "Needs 力量 cooperation rank 1 to be fused"
     },
-    "Forneus": {
-        "arcana": "Hierophant",
+    "佛钮司": {
+        "arcana": "教皇",
         "level": 63,
         "stats": [41, 39, 40, 42, 34],
         "elems": ["-", "-", "-", "ab", "wk", "-", "nu", "-", "-", "-"],
@@ -798,8 +798,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Fortuna": {
-        "arcana": "Fortune",
+    "福图纳": {
+        "arcana": "命运",
         "level": 46,
         "stats": [23, 32, 29, 34, 27],
         "elems": ["-", "-", "nu", "-", "wk", "nu", "-", "-", "-", "-"],
@@ -813,8 +813,8 @@ const personaMap : PersonaMap = {
             "Touch n' Go": 49
         }
     },
-    "Futsunushi": {
-        "arcana": "Magician",
+    "经津主": {
+        "arcana": "魔术师",
         "level": 76,
         "stats": [54, 48, 47, 49, 37],
         "elems": ["rs", "-", "-", "-", "-", "-", "-", "wk", "-", "-"],
@@ -830,22 +830,22 @@ const personaMap : PersonaMap = {
         },
         "max": true
     },
-    "Fuu-Ki": {
-        "arcana": "Star",
+    "风鬼": {
+        "arcana": "星星",
         "level": 23,
         "stats": [14, 17, 16, 15, 14],
         "elems": ["-", "-", "-", "-", "wk", "ab", "-", "-", "-", "-"],
         "skills": {"Dodge Wind": 26, "Garula": 0, "Resist Psy": 27, "Tarukaja": 0, "Tetra Break": 0, "Wind Boost": 25},
         "personality": "Unknown"
     },
-    "Gabriel": {
-        "arcana": "Temperance",
+    "加百列": {
+        "arcana": "节制",
         "level": 77,
         "stats": [43, 51, 48, 54, 42],
         "elems": ["-", "-", "-", "-", "-", "-", "nu", "-", "ab", "-"],
         "skills": {
             "Ali Dance": 79,
-            "Divine Judgement": 78,
+            "Divine 审判": 78,
             "Evade Curse": 80,
             "Ice Amp": 82,
             "Mabufudyne": 0,
@@ -854,8 +854,8 @@ const personaMap : PersonaMap = {
             "Touch n' Go": 81
         }
     },
-    "Ganesha": {
-        "arcana": "Sun",
+    "象头神": {
+        "arcana": "太阳",
         "level": 53,
         "stats": [39, 31, 37, 33, 26],
         "elems": ["rs", "-", "-", "-", "-", "ab", "wk", "-", "-", "-"],
@@ -870,8 +870,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Garuda": {
-        "arcana": "Star",
+    "迦楼罗": {
+        "arcana": "星星",
         "level": 52,
         "stats": [30, 36, 29, 39, 29],
         "elems": ["-", "wk", "-", "-", "-", "rs", "-", "-", "rp", "-"],
@@ -886,23 +886,23 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Genbu": {
-        "arcana": "Temperance",
+    "玄武": {
+        "arcana": "节制",
         "level": 7,
         "stats": [5, 6, 7, 6, 4],
         "elems": ["-", "-", "-", "nu", "wk", "-", "rs", "-", "-", "-"],
         "skills": {"Bufu": 0, "Defense Master": 12, "Mabufu": 10, "Patra": 8, "Rakunda": 0, "Resist Forget": 11}
     },
-    "Girimehkala": {
-        "arcana": "Moon",
+    "基力梅卡拉": {
+        "arcana": "月亮",
         "level": 44,
         "stats": [36, 24, 32, 32, 15],
         "elems": ["rp", "rp", "rs", "-", "-", "-", "-", "-", "wk", "nu"],
         "skills": {"Foul Breath": 46, "Marakunda": 0, "Mudoon": 0, "Repel Phys": 51, "Swift Strike": 0, "Wage War": 48},
         "personality": "Gloomy"
     },
-    "Hanuman": {
-        "arcana": "Star",
+    "哈奴曼": {
+        "arcana": "星星",
         "level": 64,
         "stats": [43, 38, 40, 40, 38],
         "elems": ["-", "-", "-", "wk", "-", "-", "rs", "-", "rs", "-"],
@@ -916,8 +916,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Hariti": {
-        "arcana": "Empress",
+    "诃梨帝母": {
+        "arcana": "女皇",
         "level": 40,
         "stats": [24, 29, 25, 26, 23],
         "elems": ["-", "-", "-", "-", "-", "wk", "rs", "-", "rs", "-"],
@@ -933,8 +933,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Hecatoncheires": {
-        "arcana": "Hanged Man",
+    "百臂巨人": {
+        "arcana": "倒悬者",
         "level": 42,
         "stats": [29, 25, 30, 25, 24],
         "elems": ["-", "rs", "-", "-", "-", "-", "-", "-", "wk", "nu"],
@@ -948,8 +948,8 @@ const personaMap : PersonaMap = {
             "Tarukaja": 0
         }
     },
-    "Hell Biker": {
-        "arcana": "Death",
+    "地狱天使": {
+        "arcana": "死神",
         "level": 39,
         "stats": [26, 27, 24, 30, 17],
         "elems": ["-", "-", "rp", "-", "-", "rs", "-", "-", "wk", "-"],
@@ -964,16 +964,16 @@ const personaMap : PersonaMap = {
             "Trigger Happy": 43
         }
     },
-    "High Pixie": {
-        "arcana": "Fool",
+    "高等皮克希": {
+        "arcana": "愚者",
         "level": 16,
         "stats": [8, 14, 10, 13, 10],
         "elems": ["-", "wk", "-", "-", "rs", "rs", "-", "wk", "-", "-"],
         "skills": {"Diarama": 18, "Dormina": 0, "Garu": 0, "Magaru": 20, "Media": 0, "Taunt": 19},
         "personality": "Irritable"
     },
-    "Hope Diamond": {
-        "arcana": "Death",
+    "希望钻石": {
+        "arcana": "死神",
         "level": 40,
         "stats": [40, 40, 40, 40, 40],
         "elems": ["rs", "nu", "rp", "rp", "rp", "-", "rp", "rp", "nu", "nu"],
@@ -989,8 +989,8 @@ const personaMap : PersonaMap = {
         },
         "rare": true
     },
-    "Horus": {
-        "arcana": "Sun",
+    "荷鲁斯": {
+        "arcana": "太阳",
         "level": 49,
         "stats": [30, 32, 32, 35, 25],
         "elems": ["-", "-", "wk", "-", "nu", "-", "-", "-", "rp", "-"],
@@ -1004,24 +1004,24 @@ const personaMap : PersonaMap = {
             "Touch n' Go": 51
         }
     },
-    "Hua Po": {
-        "arcana": "Hanged Man",
+    "花魄": {
+        "arcana": "倒悬者",
         "level": 9,
         "stats": [4, 10, 4, 8, 8],
         "elems": ["-", "wk", "rp", "wk", "-", "-", "-", "-", "-", "-"],
         "skills": {"Agi": 0, "Burn Boost": 15, "Dormina": 0, "Maragi": 13, "Resist Forget": 12, "Tarunda": 11},
         "personality": "Upbeat"
     },
-    "Incubus": {
-        "arcana": "Devil",
+    "男梦魇": {
+        "arcana": "恶魔",
         "level": 5,
         "stats": [4, 6, 4, 5, 3],
         "elems": ["-", "wk", "-", "-", "rs", "-", "-", "-", "wk", "-"],
         "skills": {"Life Drain": 0, "Evil Touch": 0, "Dodge Curse": 9, "Eiha": 7, "Tarunda": 8},
         "personality": "Timid"
     },
-    "Inugami": {
-        "arcana": "Hanged Man",
+    "犬神": {
+        "arcana": "倒悬者",
         "level": 14,
         "stats": [11, 9, 9, 12, 8],
         "elems": ["-", "-", "nu", "-", "-", "wk", "-", "-", "-", "nu"],
@@ -1036,8 +1036,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Timid"
     },
-    "Ippon-Datara": {
-        "arcana": "Hermit",
+    "一本踏鞴": {
+        "arcana": "隐士",
         "level": 13,
         "stats": [11, 7, 14, 6, 8],
         "elems": ["-", "-", "rs", "wk", "-", "rp", "-", "-", "rs", "rs"],
@@ -1051,8 +1051,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Ishtar": {
-        "arcana": "Lovers",
+    "伊丝塔": {
+        "arcana": "恋爱",
         "level": 85,
         "stats": [48, 59, 49, 58, 48],
         "elems": ["-", "-", "-", "-", "nu", "wk", "-", "-", "-", "-"],
@@ -1067,8 +1067,8 @@ const personaMap : PersonaMap = {
         },
         "max": true
     },
-    "Isis": {
-        "arcana": "Priestess",
+    "伊西丝": {
+        "arcana": "女教皇",
         "level": 26,
         "stats": [15, 21, 16, 18, 15],
         "elems": ["-", "-", "-", "-", "-", "-", "wk", "-", "nu", "nu"],
@@ -1083,8 +1083,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Timid"
     },
-    "Izanagi": {
-        "arcana": "Fool",
+    "伊邪纳岐": {
+        "arcana": "愚者",
         "level": 20,
         "stats": [14, 13, 13, 14, 13],
         "elems": ["-", "-", "-", "-", "rs", "wk", "-", "-", "-", "nu"],
@@ -1099,8 +1099,8 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Izanagi Picaro": {
-        "arcana": "Fool",
+    "伊邪纳岐 贼神": {
+        "arcana": "愚者",
         "level": 23,
         "stats": [16, 15, 15, 16, 14],
         "elems": ["-", "-", "-", "-", "nu", "wk", "-", "-", "-", "nu"],
@@ -1115,24 +1115,24 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Jack Frost": {
-        "arcana": "Magician",
+    "杰克霜精": {
+        "arcana": "魔术师",
         "level": 11,
         "stats": [8, 9, 7, 9, 7],
         "elems": ["-", "-", "wk", "nu", "-", "-", "-", "-", "-", "-"],
         "skills": {"Baisudi": 0, "Bufu": 0, "Freeze Boost": 15, "Ice Break": 0, "Mabufu": 12, "Rakunda": 13},
         "personality": "Timid"
     },
-    "Jack-o'-Lantern": {
-        "arcana": "Magician",
+    "杰克灯笼": {
+        "arcana": "魔术师",
         "level": 2,
         "stats": [2, 3, 3, 3, 2],
         "elems": ["-", "wk", "ab", "wk", "-", "wk", "-", "-", "-", "-"],
         "skills": {"Agi": 0, "Dazzler": 5, "Sharp Student": 4, "Rakunda": 0, "Resist Sleep": 7},
         "personality": "Gloomy"
     },
-    "Jatayu": {
-        "arcana": "Tower",
+    "佳塔由": {
+        "arcana": "塔",
         "level": 32,
         "stats": [18, 21, 20, 27, 17],
         "elems": ["-", "-", "-", "-", "-", "ab", "wk", "-", "-", "-"],
@@ -1146,8 +1146,8 @@ const personaMap : PersonaMap = {
             "Speed Master": 38
         }
     },
-    "Jikokuten": {
-        "arcana": "Temperance",
+    "持国天": {
+        "arcana": "节制",
         "level": 25,
         "stats": [19, 12, 19, 17, 15],
         "elems": ["rs", "-", "-", "-", "-", "-", "-", "-", "rs", "wk"],
@@ -1161,8 +1161,8 @@ const personaMap : PersonaMap = {
             "Rakunda": 0
         }
     },
-    "Kaguya": {
-        "arcana": "Moon",
+    "辉夜": {
+        "arcana": "月亮",
         "level": 16,
         "stats": [11, 15, 12, 11, 6],
         "elems": ["-", "-", "wk", "-", "-", "rs", "-", "-", "nu", "nu"],
@@ -1177,8 +1177,8 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Kaguya Picaro": {
-        "arcana": "Moon",
+    "辉夜 贼神": {
+        "arcana": "月亮",
         "level": 25,
         "stats": [17, 20, 19, 15, 11],
         "elems": ["-", "-", "wk", "-", "-", "-", "-", "-", "nu", "nu"],
@@ -1193,8 +1193,8 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Kaiwan": {
-        "arcana": "Star",
+    "迦温": {
+        "arcana": "星星",
         "level": 36,
         "stats": [23, 26, 24, 22, 20],
         "elems": ["-", "nu", "-", "-", "-", "-", "nu", "wk", "-", "-"],
@@ -1209,8 +1209,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Timid"
     },
-    "Kali": {
-        "arcana": "Empress",
+    "迦梨": {
+        "arcana": "女皇",
         "level": 77,
         "stats": [53, 45, 46, 53, 41],
         "elems": ["-", "-", "nu", "-", "-", "-", "rp", "-", "-", "rs"],
@@ -1224,24 +1224,24 @@ const personaMap : PersonaMap = {
             "Vorpal Blade": 0
         }
     },
-    "Kelpie": {
-        "arcana": "Strength",
+    "凯尔皮": {
+        "arcana": "力量",
         "level": 6,
         "stats": [5, 5, 5, 6, 4],
         "elems": ["-", "-", "-", "rs", "wk", "-", "-", "-", "-", "-"],
         "skills": {"Garu": 0, "Lunge": 0, "Resist Brainwash": 8, "Sukukaja": 9, "Terror Claw": 10},
         "personality": "Upbeat"
     },
-    "Kikuri-Hime": {
-        "arcana": "Priestess",
+    "菊理媛": {
+        "arcana": "女教皇",
         "level": 40,
         "stats": [22, 31, 24, 28, 22],
         "elems": ["-", "-", "wk", "-", "-", "nu", "-", "-", "rs", "-"],
         "skills": {"Divine Grace": 45, "Energy Drop": 0, "Lullaby": 0, "Marakukaja": 0, "Mediarama": 41, "Tetraja": 43},
         "personality": "Unknown"
     },
-    "Kin-Ki": {
-        "arcana": "Chariot",
+    "金鬼": {
+        "arcana": "战车",
         "level": 25,
         "stats": [21, 13, 21, 15, 12],
         "elems": ["rs", "rs", "-", "-", "-", "-", "wk", "-", "-", "-"],
@@ -1256,8 +1256,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Gloomy"
     },
-    "King Frost": {
-        "arcana": "Emperor",
+    "霜精之王": {
+        "arcana": "皇帝",
         "level": 61,
         "stats": [38, 39, 45, 33, 35],
         "elems": ["-", "-", "-", "ab", "-", "-", "-", "-", "nu", "-"],
@@ -1272,8 +1272,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Kodama": {
-        "arcana": "Star",
+    "木灵": {
+        "arcana": "星星",
         "level": 11,
         "stats": [7, 11, 8, 10, 4],
         "elems": ["-", "-", "wk", "rs", "-", "-", "-", "-", "-", "-"],
@@ -1288,8 +1288,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Upbeat"
     },
-    "Koh-i-Noor": {
-        "arcana": "Priestess",
+    "柯·伊·诺尔": {
+        "arcana": "女教皇",
         "level": 25,
         "stats": [25, 25, 25, 25, 25],
         "elems": ["rs", "rs", "rs", "rs", "rs", "rs", "rs", "-", "nu", "nu"],
@@ -1305,8 +1305,8 @@ const personaMap : PersonaMap = {
         },
         "rare": true
     },
-    "Kohryu": {
-        "arcana": "Hierophant",
+    "黄龙": {
+        "arcana": "教皇",
         "level": 76,
         "stats": [43, 51, 50, 53, 38],
         "elems": ["-", "-", "-", "-", "rp", "-", "wk", "nu", "nu", "-"],
@@ -1322,24 +1322,24 @@ const personaMap : PersonaMap = {
         "special": true,
         "max": true
     },
-    "Koppa Tengu": {
-        "arcana": "Temperance",
+    "木叶天狗": {
+        "arcana": "节制",
         "level": 11,
         "stats": [7, 8, 8, 11, 6],
         "elems": ["-", "-", "-", "wk", "-", "rs", "-", "-", "wk", "-"],
         "skills": {"Snap": 0, "Garu": 0, "Growth 1": 12, "Taunt": 13, "Rage Boost": 14, "Wage War": 15},
         "personality": "Upbeat"
     },
-    "Koropokkuru": {
-        "arcana": "Hermit",
+    "克鲁波克鲁": {
+        "arcana": "隐士",
         "level": 9,
         "stats": [5, 8, 6, 9, 6],
         "elems": ["-", "rs", "wk", "rs", "-", "rs", "-", "-", "-", "-"],
         "skills": {"Bufu": 0, "Dodge Ice": 11, "Fire Wall": 13, "Mabufu": 14, "Makajam": 0, "Rakunda": 12},
         "personality": "Timid"
     },
-    "Koumokuten": {
-        "arcana": "Hermit",
+    "广目天": {
+        "arcana": "隐士",
         "level": 49,
         "stats": [37, 32, 34, 31, 25],
         "elems": ["rs", "-", "-", "wk", "-", "-", "-", "-", "rs", "-"],
@@ -1354,8 +1354,8 @@ const personaMap : PersonaMap = {
             "Revolution": 0
         }
     },
-    "Kumbhanda": {
-        "arcana": "Hermit",
+    "鸠槃荼": {
+        "arcana": "隐士",
         "level": 42,
         "stats": [29, 25, 27, 26, 26],
         "elems": ["-", "-", "nu", "wk", "-", "-", "-", "-", "-", "rs"],
@@ -1369,15 +1369,15 @@ const personaMap : PersonaMap = {
             "Wage War": 0
         }
     },
-    "Kurama Tengu": {
-        "arcana": "Hermit",
+    "鞍马天狗": {
+        "arcana": "隐士",
         "level": 56,
         "stats": [34, 38, 34, 42, 27],
         "elems": ["-", "-", "-", "wk", "-", "rp", "-", "-", "rs", "rs"],
         "skills": {"Brain Buster": 0, "Garudyne": 57, "Growth 3": 58, "Heat Wave": 0, "Magarudyne": 60, "Masukunda": 0}
     },
-    "Kushinada-Hime": {
-        "arcana": "Lovers",
+    "奇稻田姬": {
+        "arcana": "恋爱",
         "level": 42,
         "stats": [24, 30, 26, 28, 25],
         "elems": ["-", "-", "-", "-", "-", "-", "-", "wk", "rp", "-"],
@@ -1391,8 +1391,8 @@ const personaMap : PersonaMap = {
             "Wind Wall": 46
         }
     },
-    "Kusi Mitama": {
-        "arcana": "Strength",
+    "奇魂": {
+        "arcana": "力量",
         "level": 14,
         "stats": [8, 12, 11, 9, 9],
         "elems": ["-", "-", "wk", "-", "-", "rs", "-", "-", "-", "-"],
@@ -1406,8 +1406,8 @@ const personaMap : PersonaMap = {
             "Wind Wall": 16
         }
     },
-    "Lachesis": {
-        "arcana": "Fortune",
+    "拉克西斯": {
+        "arcana": "命运",
         "level": 34,
         "stats": [18, 25, 22, 25, 19],
         "elems": ["-", "-", "-", "nu", "wk", "rs", "-", "-", "-", "-"],
@@ -1421,8 +1421,8 @@ const personaMap : PersonaMap = {
             "Marakukaja": 35
         }
     },
-    "Lakshmi": {
-        "arcana": "Fortune",
+    "吉祥天": {
+        "arcana": "命运",
         "level": 69,
         "stats": [40, 47, 43, 46, 38],
         "elems": ["-", "-", "wk", "rs", "-", "-", "-", "-", "rs", "-"],
@@ -1437,8 +1437,8 @@ const personaMap : PersonaMap = {
         },
         "max": true
     },
-    "Lamia": {
-        "arcana": "Empress",
+    "拉弥亚": {
+        "arcana": "女皇",
         "level": 26,
         "stats": [21, 15, 18, 19, 12],
         "elems": ["-", "rs", "-", "wk", "rs", "-", "-", "-", "-", "nu"],
@@ -1453,24 +1453,24 @@ const personaMap : PersonaMap = {
         },
         "personality": "Gloomy"
     },
-    "Leanan Sidhe": {
-        "arcana": "Lovers",
+    "菈南希": {
+        "arcana": "恋爱",
         "level": 19,
         "stats": [9, 17, 12, 16, 10],
         "elems": ["-", "-", "wk", "-", "-", "rs", "rs", "-", "-", "-"],
         "skills": {"Eiga": 23, "Mamudo": 21, "Mapsi": 22, "Marin Karin": 20, "Psio": 0, "Rakunda": 0},
         "personality": "Irritable"
     },
-    "Legion": {
-        "arcana": "Fool",
+    "恶灵军团": {
+        "arcana": "愚者",
         "level": 38,
         "stats": [24, 24, 30, 23, 20],
         "elems": ["rs", "rs", "rs", "-", "-", "-", "rs", "-", "wk", "nu"],
         "skills": {"Life Drain": 0, "Negative Pile": 0, "Null Dizzy": 42, "Psio": 39, "Rampage": 0, "Tetra Break": 40},
         "personality": "Unknown"
     },
-    "Lilim": {
-        "arcana": "Devil",
+    "莉莉姆": {
+        "arcana": "恶魔",
         "level": 32,
         "stats": [17, 23, 18, 25, 20],
         "elems": ["-", "wk", "-", "rs", "-", "wk", "-", "-", "wk", "nu"],
@@ -1485,8 +1485,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Gloomy"
     },
-    "Lilith": {
-        "arcana": "Moon",
+    "莉莉丝": {
+        "arcana": "月亮",
         "level": 60,
         "stats": [33, 43, 37, 39, 35],
         "elems": ["-", "-", "wk", "rp", "-", "-", "-", "-", "-", "nu"],
@@ -1500,8 +1500,8 @@ const personaMap : PersonaMap = {
             "Spirit Drain": 63
         }
     },
-    "Lucifer": {
-        "arcana": "Star",
+    "路西法": {
+        "arcana": "星星",
         "level": 93,
         "stats": [61, 59, 59, 56, 51],
         "elems": ["-", "-", "-", "-", "-", "-", "-", "-", "wk", "-"],
@@ -1512,14 +1512,14 @@ const personaMap : PersonaMap = {
             "Fortified Moxy": 97,
             "Blazing Hell": 0,
             "Insta-Heal": 98,
-            "Morning Star": 94,
+            "Morning 星星": 94,
             "Spell Master": 95
         },
         "special": true,
         "max": true
     },
-    "Mada": {
-        "arcana": "Tower",
+    "摩陀": {
+        "arcana": "塔",
         "level": 85,
         "stats": [52, 51, 58, 56, 45],
         "elems": ["-", "-", "ab", "wk", "-", "-", "rs", "nu", "-", "-"],
@@ -1535,8 +1535,8 @@ const personaMap : PersonaMap = {
         },
         "max": true
     },
-    "Magatsu-Izanagi": {
-        "arcana": "Tower",
+    "祸津伊邪纳岐": {
+        "arcana": "塔",
         "level": 44,
         "stats": [37, 35, 32, 25, 10],
         "elems": ["-", "rs", "-", "-", "-", "-", "-", "wk", "nu", "nu"],
@@ -1545,14 +1545,14 @@ const personaMap : PersonaMap = {
             "Bloodbath": 46,
             "Ghastly Wail": 0,
             "Heat Riser": 50,
-            "Magatsu Mandala": 0,
+            "祸津 Mandala": 0,
             "Maziodyne": 45,
             "Megidola": 0
         },
         "dlc": true
     },
-    "Magatsu-Izanagi Picaro": {
-        "arcana": "Tower",
+    "祸津伊邪纳岐 贼神": {
+        "arcana": "塔",
         "level": 48,
         "stats": [40, 38, 35, 27, 11],
         "elems": ["-", "rs", "-", "-", "-", "-", "-", "wk", "nu", "nu"],
@@ -1561,14 +1561,14 @@ const personaMap : PersonaMap = {
             "Ghastly Wail": 0,
             "Heat Riser": 54,
             "Magarudyne": 49,
-            "Magatsu Mandala": 0,
+            "祸津 Mandala": 0,
             "Megidola": 0,
             "Speed Master": 52
         },
         "dlc": true
     },
-    "Makami": {
-        "arcana": "Temperance",
+    "真神": {
+        "arcana": "节制",
         "level": 15,
         "stats": [13, 12, 8, 11, 8],
         "elems": ["-", "-", "-", "-", "wk", "rs", "-", "rs", "nu", "-"],
@@ -1583,8 +1583,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Upbeat"
     },
-    "Mandrake": {
-        "arcana": "Death",
+    "曼陀罗": {
+        "arcana": "死神",
         "level": 3,
         "stats": [2, 3, 3, 4, 4],
         "elems": ["-", "-", "wk", "-", "rs", "-", "-", "-", "-", "-"],
@@ -1592,7 +1592,7 @@ const personaMap : PersonaMap = {
         "personality": "Upbeat"
     },
     "Mara": {
-        "arcana": "Tower",
+        "arcana": "塔",
         "level": 73,
         "stats": [47, 46, 49, 45, 39],
         "elems": ["-", "nu", "ab", "wk", "-", "-", "-", "-", "rs", "rp"],
@@ -1606,15 +1606,15 @@ const personaMap : PersonaMap = {
             "Tetra Break": 0
         }
     },
-    "Matador": {
-        "arcana": "Death",
+    "斗牛士": {
+        "arcana": "死神",
         "level": 19,
         "stats": [12, 13, 12, 16, 11],
         "elems": ["-", "-", "-", "-", "wk", "nu", "-", "-", "-", "-"],
         "skills": {"Garula": 23, "Null Dizzy": 0, "Psi": 0, "Sukukaja": 0, "Swift Strike": 20, "Trigger Happy": 22}
     },
-    "Melchizedek": {
-        "arcana": "Justice",
+    "默基瑟德": {
+        "arcana": "正义",
         "level": 60,
         "stats": [37, 38, 41, 39, 32],
         "elems": ["-", "-", "-", "-", "-", "wk", "rs", "-", "ab", "nu"],
@@ -1628,8 +1628,8 @@ const personaMap : PersonaMap = {
             "Revolution": 62
         }
     },
-    "Messiah": {
-        "arcana": "Judgement",
+    "メサイア": {
+        "arcana": "审判",
         "level": 81,
         "stats": [50, 50, 50, 50, 50],
         "elems": ["-", "-", "rs", "rs", "rs", "rs", "rs", "rs", "rp", "wk"],
@@ -1645,8 +1645,8 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Messiah Picaro": {
-        "arcana": "Judgement",
+    "メサイア 贼神": {
+        "arcana": "审判",
         "level": 90,
         "stats": [56, 56, 55, 55, 55],
         "elems": ["-", "-", "rs", "rs", "rs", "rs", "rs", "rs", "rp", "wk"],
@@ -1662,14 +1662,14 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Metatron": {
-        "arcana": "Justice",
+    "梅塔特隆": {
+        "arcana": "正义",
         "level": 89,
         "stats": [54, 61, 60, 57, 42],
         "elems": ["-", "-", "-", "-", "wk", "rp", "ab", "ab", "-", "wk"],
         "skills": {
             "Sword Dance": 0,
-            "Divine Judgement": 95,
+            "Divine 审判": 95,
             "Hama Boost": 92,
             "Bless Amp": 94,
             "Mahamaon": 0,
@@ -1680,8 +1680,8 @@ const personaMap : PersonaMap = {
         "special": true,
         "max": true
     },
-    "Michael": {
-        "arcana": "Judgement",
+    "米迦勒": {
+        "arcana": "审判",
         "level": 87,
         "stats": [57, 54, 55, 56, 46],
         "elems": ["-", "rs", "-", "-", "-", "-", "-", "-", "rp", "nu"],
@@ -1689,16 +1689,16 @@ const personaMap : PersonaMap = {
             "Cosmic Flare": 92,
             "Sword Dance": 89,
             "Debilitate": 0,
-            "Divine Judgement": 0,
+            "Divine 审判": 0,
             "Mabufudyne": 0,
             "Mahamaon": 90,
             "Megidolaon": 91
         },
         "special": true,
-        "note": "Needs Strength cooperation rank 5 to be fused"
+        "note": "Needs 力量 cooperation rank 5 to be fused"
     },
-    "Mithra": {
-        "arcana": "Temperance",
+    "密特拉": {
+        "arcana": "节制",
         "level": 33,
         "stats": [19, 26, 19, 24, 18],
         "elems": ["-", "-", "-", "nu", "wk", "-", "-", "-", "nu", "-"],
@@ -1712,8 +1712,8 @@ const personaMap : PersonaMap = {
             "Thermopylae": 38
         }
     },
-    "Mithras": {
-        "arcana": "Sun",
+    "米特拉斯": {
+        "arcana": "太阳",
         "level": 39,
         "stats": [27, 25, 27, 25, 20],
         "elems": ["rs", "-", "ab", "-", "-", "-", "wk", "nu", "-", "-"],
@@ -1727,8 +1727,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Gloomy"
     },
-    "Mokoi": {
-        "arcana": "Death",
+    "恶灵": {
+        "arcana": "死神",
         "level": 9,
         "stats": [9, 5, 6, 10, 4],
         "elems": ["-", "-", "-", "-", "rs", "wk", "-", "-", "-", "-"],
@@ -1742,8 +1742,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Gloomy"
     },
-    "Moloch": {
-        "arcana": "Hanged Man",
+    "摩洛": {
+        "arcana": "倒悬者",
         "level": 60,
         "stats": [32, 45, 42, 31, 37],
         "elems": ["-", "-", "rp", "wk", "rs", "rs", "ab", "-", "-", "nu"],
@@ -1757,8 +1757,8 @@ const personaMap : PersonaMap = {
             "Stagnant Air": 0
         }
     },
-    "Mot": {
-        "arcana": "Death",
+    "莫特": {
+        "arcana": "死神",
         "level": 72,
         "stats": [43, 51, 48, 42, 39],
         "elems": ["-", "rs", "-", "-", "ab", "wk", "-", "-", "-", "rp"],
@@ -1771,8 +1771,8 @@ const personaMap : PersonaMap = {
             "Repel Elec": 77
         }
     },
-    "Mother Harlot": {
-        "arcana": "Empress",
+    "巴比伦大荡妇": {
+        "arcana": "女皇",
         "level": 80,
         "stats": [55, 48, 46, 49, 49],
         "elems": ["-", "-", "-", "-", "rp", "-", "-", "-", "wk", "nu"],
@@ -1787,8 +1787,8 @@ const personaMap : PersonaMap = {
         },
         "max": true
     },
-    "Mothman": {
-        "arcana": "Moon",
+    "天蛾人": {
+        "arcana": "月亮",
         "level": 33,
         "stats": [21, 24, 16, 24, 21],
         "elems": ["-", "wk", "-", "-", "nu", "-", "rs", "-", "-", "-"],
@@ -1802,8 +1802,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Timid"
     },
-    "Naga": {
-        "arcana": "Hermit",
+    "娜迦": {
+        "arcana": "隐士",
         "level": 24,
         "stats": [15, 17, 15, 17, 15],
         "elems": ["-", "-", "-", "-", "nu", "wk", "-", "-", "-", "-"],
@@ -1818,8 +1818,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Gloomy"
     },
-    "Narcissus": {
-        "arcana": "Lovers",
+    "纳西瑟斯": {
+        "arcana": "恋爱",
         "level": 50,
         "stats": [27, 36, 29, 35, 30],
         "elems": ["-", "-", "wk", "-", "nu", "rs", "-", "-", "rs", "-"],
@@ -1833,8 +1833,8 @@ const personaMap : PersonaMap = {
             "Mediarama": 54
         }
     },
-    "Nebiros": {
-        "arcana": "Devil",
+    "奈比洛斯": {
+        "arcana": "恶魔",
         "level": 62,
         "stats": [39, 40, 42, 36, 36],
         "elems": ["-", "-", "-", "-", "-", "-", "rs", "-", "wk", "rp"],
@@ -1848,8 +1848,8 @@ const personaMap : PersonaMap = {
             "Megidolaon": 68
         }
     },
-    "Neko Shogun": {
-        "arcana": "Star",
+    "猫将军": {
+        "arcana": "星星",
         "level": 30,
         "stats": [19, 20, 19, 21, 18],
         "elems": ["rs", "-", "-", "-", "rs", "wk", "-", "-", "nu", "rs"],
@@ -1863,10 +1863,10 @@ const personaMap : PersonaMap = {
             "Rat Fang": 33
         },
         "special": true,
-        "note": "Needs Strength cooperation rank 1 to be fused"
+        "note": "Needs 力量 cooperation rank 1 to be fused"
     },
-    "Nekomata": {
-        "arcana": "Magician",
+    "猫怪": {
+        "arcana": "魔术师",
         "level": 17,
         "stats": [13, 10, 12, 15, 8],
         "elems": ["-", "-", "-", "-", "wk", "-", "rs", "-", "-", "-"],
@@ -1881,15 +1881,15 @@ const personaMap : PersonaMap = {
         },
         "personality": "Upbeat"
     },
-    "Nigi Mitama": {
-        "arcana": "Temperance",
+    "和魂": {
+        "arcana": "节制",
         "level": 20,
         "stats": [12, 14, 14, 15, 12],
         "elems": ["-", "-", "-", "-", "wk", "-", "-", "-", "rs", "rs"],
         "skills": {"Baisudi": 0, "Divine Grace": 22, "Makouha": 0, "Me Patra": 23, "Media": 0, "Rainy Play": 24}
     },
-    "Norn": {
-        "arcana": "Fortune",
+    "诺伦": {
+        "arcana": "命运",
         "level": 52,
         "stats": [30, 38, 33, 34, 28],
         "elems": ["-", "-", "-", "rs", "-", "ab", "-", "-", "-", "-"],
@@ -1903,8 +1903,8 @@ const personaMap : PersonaMap = {
             "Ziodyne": 0
         }
     },
-    "Nue": {
-        "arcana": "Moon",
+    "鵺": {
+        "arcana": "月亮",
         "level": 20,
         "stats": [16, 10, 17, 14, 10],
         "elems": ["-", "-", "wk", "rs", "-", "-", "-", "-", "-", "nu"],
@@ -1919,16 +1919,16 @@ const personaMap : PersonaMap = {
         },
         "personality": "Irritable"
     },
-    "Obariyon": {
-        "arcana": "Fool",
+    "背负怪": {
+        "arcana": "愚者",
         "level": 8,
         "stats": [7, 3, 9, 8, 4],
         "elems": ["rs", "-", "-", "-", "wk", "-", "-", "-", "-", "-"],
         "skills": {"Dekaja": 12, "Snap": 0, "Lucky Punch": 9, "Resist Fear": 10, "Sukunda": 0},
         "personality": "Unknown"
     },
-    "Oberon": {
-        "arcana": "Emperor",
+    "奥伯隆": {
+        "arcana": "皇帝",
         "level": 66,
         "stats": [40, 44, 43, 43, 35],
         "elems": ["-", "-", "-", "-", "rs", "-", "nu", "wk", "-", "-"],
@@ -1944,8 +1944,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Odin": {
-        "arcana": "Emperor",
+    "奥丁": {
+        "arcana": "皇帝",
         "level": 82,
         "stats": [53, 52, 54, 52, 42],
         "elems": ["-", "-", "-", "-", "nu", "ab", "-", "-", "rp", "rp"],
@@ -1960,8 +1960,8 @@ const personaMap : PersonaMap = {
         },
         "max": true
     },
-    "Okuninushi": {
-        "arcana": "Emperor",
+    "大国主": {
+        "arcana": "皇帝",
         "level": 44,
         "stats": [30, 28, 29, 28, 24],
         "elems": ["-", "-", "-", "-", "rp", "wk", "nu", "wk", "-", "-"],
@@ -1975,8 +1975,8 @@ const personaMap : PersonaMap = {
             "Tempest Slash": 0
         }
     },
-    "Ongyo-Ki": {
-        "arcana": "Hermit",
+    "隐形鬼": {
+        "arcana": "隐士",
         "level": 75,
         "stats": [56, 42, 47, 48, 39],
         "elems": ["rs", "rs", "-", "-", "-", "-", "-", "-", "rp", "rp"],
@@ -1992,24 +1992,24 @@ const personaMap : PersonaMap = {
         "special": true,
         "max": true
     },
-    "Oni": {
-        "arcana": "Strength",
+    "鬼": {
+        "arcana": "力量",
         "level": 19,
         "stats": [17, 8, 16, 13, 10],
         "elems": ["rs", "rs", "-", "-", "-", "-", "-", "-", "-", "-"],
         "skills": {"Memory Blow": 23, "Sharp Student": 22, "Counter": 0, "Snap": 0, "Giant Slice": 21, "Rampage": 0},
         "personality": "Upbeat"
     },
-    "Onmoraki": {
-        "arcana": "Moon",
+    "阴摩罗鬼": {
+        "arcana": "月亮",
         "level": 12,
         "stats": [9, 12, 7, 10, 5],
         "elems": ["-", "wk", "rs", "-", "-", "-", "-", "-", "wk", "nu"],
         "skills": {"Agi": 13, "Ice Wall": 0, "Mudo": 0, "Confuse Boost": 15, "Pulinpa": 14, "Resist Fear": 17},
         "personality": "Gloomy"
     },
-    "Orlov": {
-        "arcana": "Strength",
+    "欧鲁罗芙": {
+        "arcana": "力量",
         "level": 30,
         "stats": [30, 30, 30, 30, 30],
         "elems": ["rs", "nu", "nu", "nu", "-", "nu", "nu", "nu", "nu", "nu"],
@@ -2025,16 +2025,16 @@ const personaMap : PersonaMap = {
         },
         "rare": true
     },
-    "Orobas": {
-        "arcana": "Hierophant",
+    "欧若博司": {
+        "arcana": "教皇",
         "level": 17,
         "stats": [11, 14, 15, 12, 6],
         "elems": ["-", "-", "-", "-", "-", "rs", "-", "-", "wk", "rs"],
         "skills": {"Dekaja": 0, "Fire Break": 20, "Makajamon": 21, "Maragi": 0, "Marakunda": 19, "Sukukaja": 0},
         "personality": "Timid"
     },
-    "Orpheus": {
-        "arcana": "Fool",
+    "俄耳甫斯": {
+        "arcana": "愚者",
         "level": 26,
         "stats": [17, 17, 17, 17, 17],
         "elems": ["-", "-", "-", "-", "wk", "-", "-", "-", "rs", "wk"],
@@ -2049,8 +2049,8 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Orpheus Picaro": {
-        "arcana": "Fool",
+    "俄耳甫斯 贼神": {
+        "arcana": "愚者",
         "level": 29,
         "stats": [19, 19, 19, 19, 18],
         "elems": ["-", "-", "-", "-", "wk", "-", "-", "-", "rs", "wk"],
@@ -2065,24 +2065,24 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Orthrus": {
-        "arcana": "Hanged Man",
+    "欧特鲁斯": {
+        "arcana": "倒悬者",
         "level": 21,
         "stats": [16, 14, 14, 19, 7],
         "elems": ["-", "-", "ab", "wk", "-", "-", "-", "rs", "-", "-"],
         "skills": {"Agilao": 0, "Burn Boost": 22, "Dodge Ice": 0, "Double Fangs": 0, "Matarukaja": 26, "Rat Fang": 24},
         "personality": "Irritable"
     },
-    "Ose": {
-        "arcana": "Fool",
+    "欧赛": {
+        "arcana": "愚者",
         "level": 42,
         "stats": [32, 24, 25, 31, 21],
         "elems": ["-", "-", "rs", "-", "-", "-", "-", "-", "wk", "nu"],
         "skills": {"Counterstrike": 0, "Heat Wave": 47, "Matarukaja": 45, "Oni Kagura": 0, "Tempest Slash": 43},
         "personality": "Unknown"
     },
-    "Pale Rider": {
-        "arcana": "Death",
+    "苍白骑士": {
+        "arcana": "死神",
         "level": 53,
         "stats": [34, 34, 33, 39, 26],
         "elems": ["-", "-", "-", "-", "-", "rs", "-", "-", "wk", "rp"],
@@ -2096,8 +2096,8 @@ const personaMap : PersonaMap = {
             "Megidola": 54
         }
     },
-    "Parvati": {
-        "arcana": "Lovers",
+    "帕尔瓦蒂": {
+        "arcana": "恋爱",
         "level": 56,
         "stats": [33, 39, 33, 39, 31],
         "elems": ["-", "-", "-", "rp", "-", "-", "rs", "-", "rs", "wk"],
@@ -2112,8 +2112,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Pazuzu": {
-        "arcana": "Devil",
+    "帕祖祖": {
+        "arcana": "恶魔",
         "level": 43,
         "stats": [29, 30, 27, 26, 24],
         "elems": ["-", "-", "-", "-", "-", "rs", "-", "-", "wk", "nu"],
@@ -2127,8 +2127,8 @@ const personaMap : PersonaMap = {
             "Tentarafoo": 0
         }
     },
-    "Pisaca": {
-        "arcana": "Death",
+    "毕舍遮": {
+        "arcana": "死神",
         "level": 29,
         "stats": [19, 21, 21, 17, 16],
         "elems": ["-", "-", "wk", "-", "rs", "-", "-", "-", "wk", "nu"],
@@ -2143,16 +2143,16 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Pixie": {
-        "arcana": "Lovers",
+    "皮克希": {
+        "arcana": "恋爱",
         "level": 2,
         "stats": [1, 3, 3, 4, 2],
         "elems": ["-", "wk", "-", "wk", "rs", "-", "-", "-", "rs", "wk"],
         "skills": {"Dia": 0, "Patra": 3, "Resist Confuse": 6, "Tarukaja": 5, "Zio": 0},
         "personality": "Timid"
     },
-    "Power": {
-        "arcana": "Justice",
+    "能天使": {
+        "arcana": "正义",
         "level": 41,
         "stats": [30, 26, 28, 25, 21],
         "elems": ["-", "wk", "-", "-", "-", "rs", "-", "-", "nu", "wk"],
@@ -2167,23 +2167,23 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Principality": {
-        "arcana": "Justice",
+    "权天使": {
+        "arcana": "正义",
         "level": 29,
         "stats": [17, 19, 18, 21, 19],
         "elems": ["-", "-", "rs", "-", "-", "-", "-", "-", "nu", "wk"],
         "skills": {"Bless Boost": 34, "Mabaisudi": 32, "Makajamon": 0, "Makouga": 0, "Mediarama": 31, "Tetraja": 0}
     },
-    "Queen Mab": {
-        "arcana": "Magician",
+    "妖精女王": {
+        "arcana": "魔术师",
         "level": 43,
         "stats": [23, 35, 26, 30, 22],
         "elems": ["-", "-", "nu", "-", "rs", "wk", "-", "-", "-", "-"],
         "skills": {"Agidyne": 48, "Makajamon": 0, "Makara Break": 46, "Matarunda": 44, "Mazionga": 0, "Wind Wall": 0},
         "personality": "Unknown"
     },
-    "Quetzalcoatl": {
-        "arcana": "Sun",
+    "羽蛇神": {
+        "arcana": "太阳",
         "level": 63,
         "stats": [38, 42, 41, 41, 34],
         "elems": ["-", "-", "nu", "-", "-", "rs", "wk", "-", "-", "-"],
@@ -2197,8 +2197,8 @@ const personaMap : PersonaMap = {
             "Wind Amp": 68
         }
     },
-    "Raja Naga": {
-        "arcana": "Temperance",
+    "蛇龙王": {
+        "arcana": "节制",
         "level": 55,
         "stats": [33, 37, 36, 35, 31],
         "elems": ["-", "-", "-", "-", "nu", "-", "-", "-", "-", "-"],
@@ -2212,8 +2212,8 @@ const personaMap : PersonaMap = {
             "Ziodyne": 0
         }
     },
-    "Rakshasa": {
-        "arcana": "Strength",
+    "罗刹": {
+        "arcana": "力量",
         "level": 24,
         "stats": [20, 15, 18, 17, 9],
         "elems": ["rs", "-", "rs", "-", "-", "wk", "-", "-", "wk", "rs"],
@@ -2228,16 +2228,16 @@ const personaMap : PersonaMap = {
         },
         "personality": "Irritable"
     },
-    "Rangda": {
-        "arcana": "Magician",
+    "兰达": {
+        "arcana": "魔术师",
         "level": 48,
         "stats": [28, 34, 30, 33, 26],
         "elems": ["rp", "rp", "nu", "-", "wk", "-", "-", "-", "wk", "nu"],
         "skills": {"Bloodbath": 0, "Counterstrike": 0, "Eigaon": 49, "Matarunda": 51, "Mudoon": 53, "Swift Strike": 0},
         "personality": "Unknown"
     },
-    "Raphael": {
-        "arcana": "Lovers",
+    "拉斐尔": {
+        "arcana": "恋爱",
         "level": 78,
         "stats": [57, 45, 49, 55, 35],
         "elems": ["-", "-", "-", "ab", "-", "-", "nu", "-", "nu", "-"],
@@ -2251,8 +2251,8 @@ const personaMap : PersonaMap = {
             "Charge": 0
         }
     },
-    "Red Rider": {
-        "arcana": "Tower",
+    "红骑士": {
+        "arcana": "塔",
         "level": 41,
         "stats": [26, 27, 25, 29, 23],
         "elems": ["-", "-", "-", "-", "-", "-", "-", "-", "wk", "nu"],
@@ -2266,8 +2266,8 @@ const personaMap : PersonaMap = {
             "Resist Confuse": 44
         }
     },
-    "Regent": {
-        "arcana": "Emperor",
+    "摄政者": {
+        "arcana": "皇帝",
         "level": 10,
         "stats": [10, 10, 10, 10, 10],
         "elems": ["rs", "rs", "rs", "rs", "rs", "rs", "wk", "wk", "nu", "nu"],
@@ -2283,15 +2283,15 @@ const personaMap : PersonaMap = {
         },
         "rare": true
     },
-    "Saki Mitama": {
-        "arcana": "Lovers",
+    "幸魂": {
+        "arcana": "恋爱",
         "level": 6,
         "stats": [4, 6, 5, 6, 4],
         "elems": ["-", "-", "-", "rs", "wk", "-", "-", "-", "-", "-"],
         "skills": {"Bufu": 0, "Energy Drop": 0, "Growth 1": 7, "Rakukaja": 8, "Resist Dizzy": 10, "Wind Wall": 0}
     },
-    "Sandalphon": {
-        "arcana": "Moon",
+    "圣达芬": {
+        "arcana": "月亮",
         "level": 75,
         "stats": [46, 51, 49, 48, 38],
         "elems": ["rs", "rs", "-", "-", "rs", "-", "-", "-", "rp", "nu"],
@@ -2305,8 +2305,8 @@ const personaMap : PersonaMap = {
         },
         "max": true
     },
-    "Sandman": {
-        "arcana": "Magician",
+    "睡魔": {
+        "arcana": "魔术师",
         "level": 24,
         "stats": [11, 13, 14, 20, 21],
         "elems": ["-", "-", "-", "-", "wk", "rs", "-", "-", "-", "-"],
@@ -2321,8 +2321,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Irritable"
     },
-    "Sarasvati": {
-        "arcana": "Priestess",
+    "妙音天女": {
+        "arcana": "女教皇",
         "level": 50,
         "stats": [30, 35, 32, 33, 27],
         "elems": ["-", "-", "-", "nu", "rs", "-", "-", "wk", "-", "-"],
@@ -2336,8 +2336,8 @@ const personaMap : PersonaMap = {
             "Tentarafoo": 0
         }
     },
-    "Satan": {
-        "arcana": "Judgement",
+    "撒旦": {
+        "arcana": "审判",
         "level": 92,
         "stats": [62, 59, 55, 52, 55],
         "elems": ["-", "rs", "-", "rp", "-", "-", "-", "-", "-", "rp"],
@@ -2353,8 +2353,8 @@ const personaMap : PersonaMap = {
         },
         "max": true
     },
-    "Satanael": {
-        "arcana": "Fool",
+    "撒旦耶尔": {
+        "arcana": "愚者",
         "level": 95,
         "stats": [63, 60, 57, 56, 56],
         "elems": ["rs", "rs", "rs", "rs", "rs", "rs", "rs", "rs", "nu", "ab"],
@@ -2371,8 +2371,8 @@ const personaMap : PersonaMap = {
         "special": true,
         "note": "Only available on NG+"
     },
-    "Scathach": {
-        "arcana": "Priestess",
+    "斯卡哈": {
+        "arcana": "女教皇",
         "level": 45,
         "stats": [29, 30, 28, 30, 25],
         "elems": ["-", "-", "-", "rp", "-", "-", "-", "-", "-", "nu"],
@@ -2387,8 +2387,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Upbeat"
     },
-    "Seiryu": {
-        "arcana": "Temperance",
+    "青龙": {
+        "arcana": "节制",
         "level": 62,
         "stats": [38, 41, 43, 37, 34],
         "elems": ["-", "-", "-", "rs", "-", "-", "-", "wk", "-", "-"],
@@ -2402,8 +2402,8 @@ const personaMap : PersonaMap = {
             "Repel Nuke": 63
         }
     },
-    "Setanta": {
-        "arcana": "Emperor",
+    "瑟斯特": {
+        "arcana": "皇帝",
         "level": 28,
         "stats": [20, 17, 19, 18, 17],
         "elems": ["-", "-", "-", "-", "-", "-", "wk", "rs", "-", "-"],
@@ -2416,8 +2416,8 @@ const personaMap : PersonaMap = {
             "Rebellion": 32
         }
     },
-    "Seth": {
-        "arcana": "Tower",
+    "赛特": {
+        "arcana": "塔",
         "level": 51,
         "stats": [32, 35, 30, 35, 28],
         "elems": ["-", "-", "rp", "-", "-", "nu", "-", "-", "wk", "rs"],
@@ -2430,10 +2430,10 @@ const personaMap : PersonaMap = {
             "Cripple": 53
         },
         "special": true,
-        "note": "Needs Strength cooperation rank 1 to be fused"
+        "note": "Needs 力量 cooperation rank 1 to be fused"
     },
-    "Shiisaa": {
-        "arcana": "Chariot",
+    "狮爷": {
+        "arcana": "战车",
         "level": 16,
         "stats": [13, 9, 12, 13, 8],
         "elems": ["rs", "rs", "-", "-", "-", "-", "-", "-", "nu", "wk"],
@@ -2446,16 +2446,16 @@ const personaMap : PersonaMap = {
             "Zio": 0
         }
     },
-    "Shiki-Ouji": {
-        "arcana": "Chariot",
+    "式王子": {
+        "arcana": "战车",
         "level": 21,
         "stats": [11, 15, 16, 16, 13],
         "elems": ["nu", "nu", "-", "-", "-", "-", "-", "wk", "-", "nu"],
         "skills": {"Dekaja": 24, "Snap": 0, "Mapsi": 22, "Oni Kagura": 27, "Taunt": 0, "Psio": 26, "Tarukaja": 0},
         "personality": "Irritable"
     },
-    "Shiva": {
-        "arcana": "Judgement",
+    "湿婆": {
+        "arcana": "审判",
         "level": 82,
         "stats": [55, 54, 53, 53, 38],
         "elems": ["-", "-", "-", "nu", "rp", "-", "ab", "wk", "nu", "nu"],
@@ -2470,8 +2470,8 @@ const personaMap : PersonaMap = {
         },
         "special": true
     },
-    "Siegfried": {
-        "arcana": "Strength",
+    "齐格菲": {
+        "arcana": "力量",
         "level": 69,
         "stats": [51, 37, 47, 48, 31],
         "elems": ["nu", "-", "-", "rs", "-", "-", "-", "wk", "-", "-"],
@@ -2484,16 +2484,16 @@ const personaMap : PersonaMap = {
             "Vorpal Blade": 74
         }
     },
-    "Silky": {
-        "arcana": "Priestess",
+    "希路奇": {
+        "arcana": "女教皇",
         "level": 6,
         "stats": [4, 7, 4, 5, 5],
         "elems": ["-", "-", "wk", "rs", "wk", "-", "-", "-", "-", "-"],
         "skills": {"Bufu": 0, "Sharp Student": 10, "Dia": 7, "Dormina": 0, "Patra": 9},
         "personality": "Gloomy"
     },
-    "Skadi": {
-        "arcana": "Priestess",
+    "丝卡蒂": {
+        "arcana": "女教皇",
         "level": 55,
         "stats": [35, 39, 34, 34, 30],
         "elems": ["-", "-", "-", "rp", "-", "-", "-", "-", "-", "nu"],
@@ -2507,16 +2507,16 @@ const personaMap : PersonaMap = {
             "Spirit Drain": 59
         }
     },
-    "Slime": {
-        "arcana": "Chariot",
+    "软泥怪": {
+        "arcana": "战车",
         "level": 10,
         "stats": [9, 6, 11, 6, 5],
         "elems": ["rs", "-", "wk", "-", "-", "wk", "-", "-", "-", "-"],
         "skills": {"Evil Touch": 0, "Eiha": 11, "Fire Wall": 13, "Headbutt": 14, "Lunge": 0},
         "personality": "Timid"
     },
-    "Sraosha": {
-        "arcana": "Star",
+    "斯拉欧加": {
+        "arcana": "星星",
         "level": 80,
         "stats": [47, 56, 45, 56, 43],
         "elems": ["-", "-", "-", "-", "ab", "-", "-", "-", "rp", "wk"],
@@ -2530,26 +2530,26 @@ const personaMap : PersonaMap = {
             "Makougaon": 81
         },
         "special": true,
-        "note": "Needs Strength cooperation rank 5 to be fused"
+        "note": "Needs 力量 cooperation rank 5 to be fused"
     },
-    "Stone of Scone": {
-        "arcana": "Fortune",
+    "命运之石": {
+        "arcana": "命运",
         "level": 20,
         "stats": [20, 20, 20, 20, 20],
         "elems": ["nu", "nu", "nu", "nu", "nu", "nu", "nu", "nu", "nu", "wk"],
         "skills": {"Agilao": 0, "Bufula": 0, "Eiga": 0, "Freila": 0, "Garula": 0, "Kouga": 0, "Psio": 0, "Zionga": 0},
         "rare": true
     },
-    "Succubus": {
-        "arcana": "Moon",
+    "女梦魇": {
+        "arcana": "月亮",
         "level": 7,
         "stats": [4, 7, 5, 8, 4],
         "elems": ["-", "wk", "rs", "-", "-", "-", "-", "-", "wk", "nu"],
         "skills": {"Agi": 8, "Brainwash Boost": 11, "Dekaja": 10, "Marin Karin": 0, "Mudo": 12, "Rebellion": 0},
         "personality": "Irritable"
     },
-    "Sudama": {
-        "arcana": "Hermit",
+    "山灵": {
+        "arcana": "隐士",
         "level": 17,
         "stats": [9, 14, 12, 13, 10],
         "elems": ["-", "-", "-", "wk", "-", "rp", "-", "wk", "-", "-"],
@@ -2563,8 +2563,8 @@ const personaMap : PersonaMap = {
             "Wind Wall": 21
         }
     },
-    "Sui-Ki": {
-        "arcana": "Moon",
+    "水鬼": {
+        "arcana": "月亮",
         "level": 24,
         "stats": [16, 15, 15, 18, 15],
         "elems": ["-", "-", "-", "ab", "rs", "-", "-", "wk", "-", "-"],
@@ -2579,8 +2579,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Surt": {
-        "arcana": "Magician",
+    "斯尔特": {
+        "arcana": "魔术师",
         "level": 59,
         "stats": [37, 40, 39, 35, 33],
         "elems": ["-", "-", "ab", "wk", "-", "-", "-", "-", "-", "-"],
@@ -2593,8 +2593,8 @@ const personaMap : PersonaMap = {
             "Megaton Raid": 0
         }
     },
-    "Suzaku": {
-        "arcana": "Sun",
+    "朱雀": {
+        "arcana": "太阳",
         "level": 19,
         "stats": [11, 14, 10, 18, 11],
         "elems": ["-", "-", "ab", "wk", "-", "-", "-", "rs", "-", "-"],
@@ -2608,8 +2608,8 @@ const personaMap : PersonaMap = {
             "Ominous Words": 21
         }
     },
-    "Take-Minakata": {
-        "arcana": "Hanged Man",
+    "建御名方": {
+        "arcana": "倒悬者",
         "level": 29,
         "stats": [20, 22, 21, 18, 13],
         "elems": ["-", "-", "-", "-", "rp", "-", "wk", "-", "-", "rs"],
@@ -2623,8 +2623,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Gloomy"
     },
-    "Thanatos": {
-        "arcana": "Death",
+    "塔纳托斯": {
+        "arcana": "死神",
         "level": 65,
         "stats": [43, 49, 41, 38, 31],
         "elems": ["rs", "-", "-", "-", "-", "-", "-", "-", "wk", "rp"],
@@ -2639,8 +2639,8 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Thanatos Picaro": {
-        "arcana": "Death",
+    "塔纳托斯 贼神": {
+        "arcana": "死神",
         "level": 69,
         "stats": [45, 51, 43, 40, 35],
         "elems": ["rs", "-", "-", "-", "-", "-", "-", "-", "wk", "rp"],
@@ -2655,8 +2655,8 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Queen's Necklace": {
-        "arcana": "Empress",
+    "女王的首饰": {
+        "arcana": "女皇",
         "level": 15,
         "stats": [15, 15, 15, 15, 15],
         "elems": ["rs", "wk", "rs", "rs", "rs", "rs", "rs", "rs", "rs", "rs"],
@@ -2672,8 +2672,8 @@ const personaMap : PersonaMap = {
         },
         "rare": true
     },
-    "Thor": {
-        "arcana": "Chariot",
+    "托尔": {
+        "arcana": "战车",
         "level": 64,
         "stats": [44, 39, 43, 38, 35],
         "elems": ["rs", "-", "-", "-", "ab", "-", "wk", "-", "rs", "rs"],
@@ -2687,8 +2687,8 @@ const personaMap : PersonaMap = {
             "Ziodyne": 0
         }
     },
-    "Thoth": {
-        "arcana": "Emperor",
+    "图特": {
+        "arcana": "皇帝",
         "level": 36,
         "stats": [21, 28, 21, 24, 21],
         "elems": ["-", "-", "-", "-", "-", "-", "wk", "nu", "nu", "-"],
@@ -2703,8 +2703,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Gloomy"
     },
-    "Throne": {
-        "arcana": "Justice",
+    "座天使": {
+        "arcana": "正义",
         "level": 71,
         "stats": [42, 49, 47, 46, 36],
         "elems": ["-", "-", "ab", "-", "-", "-", "-", "rs", "nu", "wk"],
@@ -2718,10 +2718,10 @@ const personaMap : PersonaMap = {
             "Makougaon": 73
         },
         "special": true,
-        "note": "Needs Strength cooperation rank 5 to be fused"
+        "note": "Needs 力量 cooperation rank 5 to be fused"
     },
-    "Titania": {
-        "arcana": "Empress",
+    "蒂坦妮亚": {
+        "arcana": "女皇",
         "level": 56,
         "stats": [32, 40, 35, 38, 30],
         "elems": ["-", "-", "-", "-", "-", "-", "wk", "rs", "rs", "rs"],
@@ -2734,8 +2734,8 @@ const personaMap : PersonaMap = {
             "Nuke Amp": 60
         }
     },
-    "Trumpeter": {
-        "arcana": "Judgement",
+    "吹号者": {
+        "arcana": "审判",
         "level": 59,
         "stats": [33, 42, 40, 38, 31],
         "elems": ["-", "-", "-", "ab", "rp", "-", "-", "-", "rp", "nu"],
@@ -2749,10 +2749,10 @@ const personaMap : PersonaMap = {
             "Cripple": 62
         },
         "special": true,
-        "note": "Needs Strength cooperation rank 5 to be fused"
+        "note": "Needs 力量 cooperation rank 5 to be fused"
     },
-    "Tsukiyomi": {
-        "arcana": "Moon",
+    "ツキヨミ": {
+        "arcana": "月亮",
         "level": 50,
         "stats": [38, 32, 33, 37, 17],
         "elems": ["rs", "-", "-", "-", "-", "-", "-", "wk", "rs", "rp"],
@@ -2767,8 +2767,8 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Tsukiyomi Picaro": {
-        "arcana": "Moon",
+    "ツキヨミ 贼神": {
+        "arcana": "月亮",
         "level": 55,
         "stats": [41, 35, 36, 40, 20],
         "elems": ["rs", "-", "-", "-", "-", "-", "-", "wk", "rs", "rp"],
@@ -2783,8 +2783,8 @@ const personaMap : PersonaMap = {
         },
         "dlc": true
     },
-    "Unicorn": {
-        "arcana": "Hierophant",
+    "独角兽": {
+        "arcana": "教皇",
         "level": 39,
         "stats": [20, 27, 25, 28, 24],
         "elems": ["-", "-", "-", "nu", "-", "-", "rs", "-", "nu", "wk"],
@@ -2799,8 +2799,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Unknown"
     },
-    "Uriel": {
-        "arcana": "Justice",
+    "尤利尔": {
+        "arcana": "正义",
         "level": 81,
         "stats": [50, 54, 49, 55, 42],
         "elems": ["-", "-", "nu", "-", "-", "-", "-", "ab", "rp", "-"],
@@ -2814,8 +2814,8 @@ const personaMap : PersonaMap = {
             "Spell Master": 86
         }
     },
-    "Valkyrie": {
-        "arcana": "Strength",
+    "女武神": {
+        "arcana": "力量",
         "level": 44,
         "stats": [33, 24, 28, 29, 25],
         "elems": ["-", "rs", "-", "-", "-", "-", "-", "-", "nu", "-"],
@@ -2828,8 +2828,8 @@ const personaMap : PersonaMap = {
             "Rising Slash": 0
         }
     },
-    "Vasuki": {
-        "arcana": "Hanged Man",
+    "婆苏古": {
+        "arcana": "倒悬者",
         "level": 68,
         "stats": [41, 46, 45, 42, 37],
         "elems": ["-", "-", "-", "nu", "nu", "-", "-", "-", "-", "wk"],
@@ -2843,10 +2843,10 @@ const personaMap : PersonaMap = {
             "Triple Down": 0
         },
         "special": true,
-        "note": "Needs Strength cooperation rank 1 to be fused"
+        "note": "Needs 力量 cooperation rank 1 to be fused"
     },
-    "Vishnu": {
-        "arcana": "Fool",
+    "毗湿奴": {
+        "arcana": "愚者",
         "level": 83,
         "stats": [56, 51, 49, 57, 43],
         "elems": ["-", "-", "wk", "ab", "-", "-", "-", "-", "nu", "nu"],
@@ -2862,8 +2862,8 @@ const personaMap : PersonaMap = {
         },
         "max": true
     },
-    "White Rider": {
-        "arcana": "Chariot",
+    "白骑士": {
+        "arcana": "战车",
         "level": 39,
         "stats": [24, 24, 25, 26, 25],
         "elems": ["-", "-", "nu", "wk", "-", "-", "-", "-", "nu", "rp"],
@@ -2878,8 +2878,8 @@ const personaMap : PersonaMap = {
             "Triple Down": 0
         }
     },
-    "Yaksini": {
-        "arcana": "Empress",
+    "母夜叉": {
+        "arcana": "女皇",
         "level": 20,
         "stats": [14, 11, 13, 16, 13],
         "elems": ["-", "-", "-", "rs", "-", "-", "-", "wk", "-", "-"],
@@ -2893,8 +2893,8 @@ const personaMap : PersonaMap = {
         },
         "personality": "Irritable"
     },
-    "Yamata-no-Orochi": {
-        "arcana": "Judgement",
+    "八岐大蛇": {
+        "arcana": "审判",
         "level": 64,
         "stats": [44, 38, 48, 36, 33],
         "elems": ["-", "-", "-", "nu", "-", "-", "-", "wk", "-", "rs"],
@@ -2907,8 +2907,8 @@ const personaMap : PersonaMap = {
             "Unshaken Will": 69
         }
     },
-    "Yatagarasu": {
-        "arcana": "Sun",
+    "八咫鸟": {
+        "arcana": "太阳",
         "level": 57,
         "stats": [35, 41, 30, 40, 32],
         "elems": ["-", "-", "-", "-", "-", "rs", "-", "-", "nu", "wk"],
@@ -2922,8 +2922,8 @@ const personaMap : PersonaMap = {
             "Wind Break": 61
         }
     },
-    "Yoshitsune": {
-        "arcana": "Tower",
+    "义经": {
+        "arcana": "塔",
         "level": 79,
         "stats": [58, 47, 45, 53, 41],
         "elems": ["nu", "-", "rs", "-", "rp", "-", "-", "-", "rp", "-"],
@@ -2937,10 +2937,10 @@ const personaMap : PersonaMap = {
             "Ziodyne": 0
         },
         "special": true,
-        "note": "Needs Strength cooperation rank 5 to be fused"
+        "note": "Needs 力量 cooperation rank 5 to be fused"
     },
-    "Yurlungur": {
-        "arcana": "Sun",
+    "虹蛇": {
+        "arcana": "太阳",
         "level": 42,
         "stats": [26, 29, 28, 27, 23],
         "elems": ["-", "-", "-", "-", "nu", "-", "wk", "-", "rs", "-"],
@@ -2954,8 +2954,8 @@ const personaMap : PersonaMap = {
             "Tetra Break": 47
         }
     },
-    "Zaou-Gongen": {
-        "arcana": "Strength",
+    "藏王权现": {
+        "arcana": "力量",
         "level": 80,
         "stats": [57, 45, 50, 56, 39],
         "elems": ["-", "-", "rp", "-", "wk", "-", "-", "-", "nu", "nu"],
@@ -2970,8 +2970,8 @@ const personaMap : PersonaMap = {
         },
         "max": true
     },
-    "Zouchouten": {
-        "arcana": "Strength",
+    "增长天": {
+        "arcana": "力量",
         "level": 31,
         "stats": [22, 19, 24, 18, 17],
         "elems": ["rs", "-", "-", "-", "-", "wk", "-", "-", "-", "-"],

@@ -87,7 +87,7 @@ var FusionCalculator = (function () {
         var level = 1 + Math.floor((persona1.level + persona2.level) / 2);
         var arcana = getResultArcana(persona1.arcana, persona2.arcana);
         if (!arcana) {
-            // only Judgement + [Justice/Strength/Chariot/Death] can result in this
+            // only 审判 + [正义/力量/战车/死神] can result in this
             return null;
         }
         var personae = this.personaeByArcana[arcana];

@@ -55,7 +55,7 @@ var PersonaController = (function () {
         // stats
         var compediumEntry = personaMap[personaName];
         this.$scope.persona.stats = compediumEntry.stats;
-        this.$scope.persona.statsHeader = ["Strength", "Magic", "Endurance", "Agility", "Luck"];
+        this.$scope.persona.statsHeader = ["力", "魔", "耐", "速", "运"];
         // elements
         // split the table into 2 for mobile
         var elems = getElems(personaName);

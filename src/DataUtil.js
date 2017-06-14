@@ -131,15 +131,15 @@ function getElems(personaName) {
     var elems = personaMap[personaName].elems;
     for (var i = 0; i < elems.length; i++) {
         if (elems[i] == 'wk')
-            elems[i] = 'Weak';
+            elems[i] = '弱';
         else if (elems[i] == 'rs')
-            elems[i] = 'Resist';
+            elems[i] = '耐';
         else if (elems[i] == 'ab')
-            elems[i] = 'Absorb';
+            elems[i] = '吸';
         else if (elems[i] == 'rp')
-            elems[i] = 'Repel';
+            elems[i] = '反';
         else if (elems[i] == 'nu')
-            elems[i] = 'Null';
+            elems[i] = '无';
     }
     return elems;
 }

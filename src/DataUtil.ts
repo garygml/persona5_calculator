@@ -143,11 +143,11 @@ const special2Combos = (() => {
 function getElems(personaName: string) {
     let elems = personaMap[personaName].elems;
     for (let i = 0; i < elems.length; i++) {
-        if (elems[i] == 'wk') elems[i] = 'Weak';
-        else if (elems[i] == 'rs') elems[i] = 'Resist';
-        else if (elems[i] == 'ab') elems[i] = 'Absorb';
-        else if (elems[i] == 'rp') elems[i] = 'Repel';
-        else if (elems[i] == 'nu') elems[i] = 'Null';
+        if (elems[i] == 'wk') elems[i] = '弱';
+        else if (elems[i] == 'rs') elems[i] = '耐';
+        else if (elems[i] == 'ab') elems[i] = '吸';
+        else if (elems[i] == 'rp') elems[i] = '反';
+        else if (elems[i] == 'nu') elems[i] = '无';
     }
     return elems;
 }
